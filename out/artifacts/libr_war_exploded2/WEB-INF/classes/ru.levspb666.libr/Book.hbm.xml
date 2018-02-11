@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ru.levspb666.libr.Book" table="test" schema="test">
+        <id name="id" column="id"/>
+        <property name="title" column="title"/>
+        <property name="discription" column="discription"/>
+        <property name="author" column="author"/>
+        <property name="isbn" column="isbn"/>
+        <property name="printYear" column="printYear"/>
+        <property name="readAlready" column="readAlready"/>
+    </class>
+</hibernate-mapping>
