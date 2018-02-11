@@ -46,8 +46,6 @@
         <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
     </bean>
 
-
-
     <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass" value="org.springframework.faces.mvc.JsfView"/>
         <property name="prefix" value="/WEB-INF/views/"/>

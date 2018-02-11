@@ -11,8 +11,8 @@
         <maven.compiler.source>9</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>
         <webflow-version>2.4.1.RELEASE</webflow-version>
-        <spring-framework-version>4.3.0.RELEASE</spring-framework-version>
-        <springsecurity-version>3.2.6.RELEASE</springsecurity-version>
+        <spring-framework-version>4.3.8.RELEASE</spring-framework-version>
+
         <slf4j-version>1.6.1</slf4j-version>
         <mojarra-version>2.2.10</mojarra-version>
         <primefaces-version>6.0</primefaces-version>
@@ -80,19 +80,6 @@
             <artifactId>spring-faces</artifactId>
             <version>${webflow-version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-web</artifactId>
-            <version>${springsecurity-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-config</artifactId>
-            <version>${springsecurity-version}</version>
-        </dependency>
-
-
-
 
         <dependency>
             <groupId>org.slf4j</groupId>
